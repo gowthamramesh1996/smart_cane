@@ -27,11 +27,6 @@ for i in range(0, number_of_rows):
 	feature_set.append([x,y,z])
 	target_set.append(function)
 
-# plt.figure(1)
-# plt.plot(feature_set, color='b')
-# plt.plot(target_set, color='r')
-# plt.show()
-
 # Linear Regression model
 model = LinearRegression()
 model.fit(feature_set, target_set)
